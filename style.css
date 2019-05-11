@@ -1,0 +1,43 @@
+body {
+  font-family: times;
+  padding: 4vh;}
+
+.intro {
+  position: relative;
+}
+
+p {
+  font-size: 20px;
+  margin: 0;
+}
+
+.intro {
+  columns: 2;
+  width: 50vw;
+}
+.thecode {
+  position: absolute;
+
+  width: 40vw;
+  top: 15vh;
+  height: 60vh;
+  text-overflow: ellipsis;
+  overflow-wrap: break-word;
+
+
+  border: 1px solid black;
+}
+
+.instruction{
+  position: absolute;
+  left: 55vw;
+  top: 15vh;
+  padding-right: 5vh;
+}
+.liv {
+  height: 380px;
+  width: 100px;
+  position: absolute;
+  bottom: -100;
+
+}
